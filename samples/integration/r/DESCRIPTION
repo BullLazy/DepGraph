@@ -1,0 +1,14 @@
+Package: rstatslib
+Type: Package
+Title: R statistics helper library
+Version: 0.2.0
+Authors@R: person("Example", "Person", email = "dev@example.com", role = c("aut", "cre"))
+Depends: R (>= 4.1.0)
+Imports:
+    data.table (>= 1.14.8),
+    glue (>= 1.6.2),
+    ggplot2 (>= 3.4.4)
+Suggests:
+    testthat (>= 3.1.0),
+    knitr
+LinkingTo: Rcpp (>= 1.0.11)

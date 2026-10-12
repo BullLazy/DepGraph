@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webapi"
+version = "1.2.0"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0,<4",
+    "requests[socks]>=2.31 ; python_version >= '3.9'",
+    "gunicorn==21.2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]

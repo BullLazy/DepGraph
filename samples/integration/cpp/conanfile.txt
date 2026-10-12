@@ -1,0 +1,10 @@
+[requires]
+gsl/2.7.1
+fmt/10.2.1
+zlib/1.3
+
+[options]
+shared=True
+
+[generators]
+CMakeDeps

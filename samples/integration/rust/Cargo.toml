@@ -1,0 +1,15 @@
+[package]
+name = "serde-metrics"
+version = "0.4.1"
+edition = "2021"
+rust-version = "1.75"
+
+[dependencies]
+serde = { version = "1.0.197", features = ["derive"] }
+rand = "0.8.5"
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+inotify = "0.10"

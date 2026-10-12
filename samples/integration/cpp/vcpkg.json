@@ -1,0 +1,10 @@
+{
+  "name": "audio-pipeline",
+  "version": "2.3.0",
+  "dependencies": [
+    "fmt",
+    "gsl",
+    { "name": "boost", "version>=": "1.82.0" },
+    { "name": "opencv", "features": ["core", "imgproc"] }
+  ]
+}

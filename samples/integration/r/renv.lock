@@ -1,0 +1,14 @@
+{
+  "R": {
+    "Version": "4.3.2",
+    "Repositories": [{"Name": "CRAN", "URL": "https://cloud.r-project.org"}]
+  },
+  "Packages": {
+    "R6": {"Package": "R6", "Version": "2.5.1"},
+    "Rcpp": {"Package": "Rcpp", "Version": "1.0.11"},
+    "cli": {"Package": "cli", "Version": "3.6.1"},
+    "data.table": {"Package": "data.table", "Version": "1.14.10"},
+    "glue": {"Package": "glue", "Version": "1.6.2"},
+    "ggplot2": {"Package": "ggplot2", "Version": "3.4.4"}
+  }
+}

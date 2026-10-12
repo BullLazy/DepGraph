@@ -1,0 +1,10 @@
+# CPANFILE
+requires 'Moose', '2.2200';
+requires 'Try::Tiny';
+requires 'Path::Tiny', '0.146';
+
+recommends 'JSON::MaybeXS';
+suggests 'Type::Tiny';
+
+test_requires 'Test::More', '0.98';
+configure_requires 'ExtUtils::MakeMaker';

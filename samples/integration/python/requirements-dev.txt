@@ -1,0 +1,4 @@
+flask>=3.0,<4
+requests[socks]>=2.31 ; python_version >= "3.9"
+# runtime pins for CI
+gunicorn==21.2.0

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "depgraph"
+version = "0.4.0"
+description = "A read-only, multilingual dependency manifest analyzer."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["packaging>=23.2"]
+keywords = [
+    "dependencies",
+    "requirements",
+    "pyproject",
+    "analysis",
+    "cli",
+    "multilingual",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Build Tools",
+]
+
+[project.scripts]
+depgraph = "depgraph:main"
+
+[tool.setuptools.packages.find]
+include = ["depgraph*"]

@@ -1,0 +1,4 @@
+github.com/google/uuid v1.6.0 h1:BBVA5MBRTwejMZ016IglYL0ImcZx+rC1
+github.com/google/uuid v1.6.0/go.mod h1:hTq9c9J5rQf
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/stretchr/testify v1.9.0 h1:Hl/hEoxhYw5aF8B8j

@@ -1,0 +1,5 @@
+# DepGraph sample project
+requests>=2.31
+Flask>=3.0
+requests>=2.31
+packaging>=24.0 ; python_version >= "3.10"

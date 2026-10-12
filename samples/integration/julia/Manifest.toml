@@ -1,0 +1,18 @@
+julia_version = "1.9.4"
+manifest_format = "2.0"
+project_hash = "abc123"
+
+[[deps.JSON]]
+version = "0.21.4"
+uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+[[deps.Dates]]
+version = "1.9.4"
+uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[[deps.LinearAlgebra]]
+version = "1.9.4"
+uuid = "37e2dd46-6290-5c2e-8a29-9f7d9c0a8f10"
+
+[[deps.Serialization]]
+version = "1.9.4"
